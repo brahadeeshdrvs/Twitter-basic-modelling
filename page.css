@@ -1,0 +1,171 @@
+#sidebar {
+ width: 26%;
+ border-right: 1px solid white;
+ border-color: 	rgb(255,255,255,0.3);
+ height: 100vh;
+ color: white;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ justify-content: space-between;
+ position: fixed;
+ 
+}
+body{
+ margin: 0;
+ background-color: black;
+ font-family: 'Roboto', sans-serif;
+ position: absolute;
+
+
+}
+.sidebar-contents{
+    margin:15px auto ;
+    text-align: left;
+    flex-direction:column;
+    flex-basis: auto;
+    font-size: 23px;
+    padding-left: 50px;
+    margin-bottom: 15px;
+    
+}
+.sidecontent-div {
+    margin-bottom: 30px;
+}
+.sidebar-contents i{
+    margin-right: 20px;
+    width: 20px;
+    
+}
+.tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    padding: 15px 80px;
+    font-size: medium;
+    border-radius: 25px;
+}
+.profile img {
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.profile{
+    margin: 0 auto 10px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.profile h4{
+    margin-top: 0;
+}
+#Center-content{
+    width:40%;
+    
+    border-right: 1px solid white;
+    border-color: 	rgb(255,255,255,0.3);
+    color: white;
+    margin-left: 26%;
+}
+#main-page {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.topbar{
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 15px 10px;
+}
+.whatshapp img{
+ width: 50px;
+ border-radius: 50px;
+ 
+}
+.whatshapp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    border-color: 	rgb(255,255,255,0.3);
+
+}
+.whatshapp-content {
+    width:80%;   
+}
+.whatshapp-content p{
+    margin: 25px 0 25px 0;
+    color: 	rgb(255,255,255,0.5);
+    
+}
+.balaji{
+    width: 50px;
+    margin:10px 15px 15px 10px;
+ border-radius: 50px;
+}
+.whatshapp-contents{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.tweets-emotes i{
+    color: rgb(29, 155, 240);
+    font-size: 18px;
+    width: 18px;
+    margin-right: 10px;
+}
+.tweet-butn {
+    padding: 10px 20px;
+    color: 	rgb(255,255,255,0.5);
+    background-color: rgb(29, 155, 240,0.6);
+    border-radius: 25px;
+    border: 0;
+}
+.quqco img {
+    width: 45px;
+    border-radius: 45px;
+}
+.quqco{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    border-color: 	rgb(255,255,255,0.3);
+    
+}
+.quqco-content{
+    width :80%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.reactions{
+    font-size: 18px;
+    color: 	rgb(255,255,255,0.3);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.robey img {
+    width: 45px;
+    border-radius: 45px;
+}
+.robey-pic{
+    width:80%;
+}
+.robey-pic img{
+    width: 120%
+}
+.robey{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    border-color: 	rgb(255,255,255,0.3);
+}
